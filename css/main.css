@@ -1,0 +1,36 @@
+.anima {
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+  }
+  body{
+      background: black;
+      color: brown;
+  }
+
+  #slider{
+      background: url("../img/taller2.jpg");
+      background-position: center center;
+    background-repeat: no-repeat;
+    
+    height: 60vh;
+  }
+
+  .card{
+      background: transparent;
+  }
+  @media screen and (max-width: 678px){
+    #slider{
+        width: auto;
+    height: 100vh;
+    }
+    #slider .flecha{
+        margin: 0;
+    }
+    #burger{
+        display: none;
+    }
+    #return{
+        display: none;
+    }
+}
