@@ -8,21 +8,35 @@
       color: brown;
   }
 
+  .enlace-toggle a{
+      color: aliceblue;
+  }
+
+  
+  .navbar{
+      position: absolute;
+      z-index: 1;
+  }
+
   #slider{
-      background: url("../img/taller2.jpg");
+      background: url("../img/parking.jpg");
       background-position: center center;
     background-repeat: no-repeat;
-    
-    height: 60vh;
+    position: relative;
+    height: 80vh;
   }
+
 
   .card{
       background: transparent;
   }
-  @media screen and (max-width: 678px){
+
+  
+
+  @media (max-width: 678px){
     #slider{
         width: auto;
-    height: 100vh;
+        height: 60vh;
     }
     #slider .flecha{
         margin: 0;
@@ -34,3 +48,4 @@
         display: none;
     }
 }
+
