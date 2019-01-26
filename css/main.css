@@ -5,7 +5,7 @@
   }
   body{
       background: black;
-      color: brown;
+      color: goldenrod;
   }
 
   .enlace-toggle a{
@@ -49,3 +49,8 @@
     }
 }
 
+@media(max-width: 576px){
+    #slider{
+        height: 120vh;
+    }
+}
